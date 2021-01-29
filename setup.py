@@ -9,10 +9,10 @@ setup(name='tap-youtube-analytics',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_youtube_analytics'],
       install_requires=[
-          'backoff==1.8.0',
-          'requests==2.24.0',
-          'pyhumps==1.6.1',
-          'singer-python==5.9.0'
+          'backoff>=1.8.0',
+          'requests>=2.21.0',
+          'pyhumps>=1.6.1',
+          'singer-python>=5.9.0'
       ],
       extras_require={
           'dev': [
